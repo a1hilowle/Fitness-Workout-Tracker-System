@@ -1,0 +1,24 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, -apple-system, Arial, sans-serif; background: #f4f6fa; color: #1c2430; }
+.container { max-width: 960px; margin: 0 auto; padding: 24px 16px; }
+.center { text-align: center; margin-top: 4rem; }
+.nav { display: flex; gap: 16px; align-items: center; padding: 12px 24px; background: #1f3864; color: #fff; }
+.nav a { color: #cfe0ff; text-decoration: none; }
+.nav a:hover { color: #fff; }
+.spacer { flex: 1; }
+button { background: #2f6fed; color: #fff; border: 0; border-radius: 6px; padding: 8px 16px; font-size: 14px; cursor: pointer; }
+button:disabled { background: #9db6ea; cursor: not-allowed; }
+label { display: block; margin: 12px 0; font-size: 14px; font-weight: 600; }
+input { display: block; width: 100%; margin-top: 4px; padding: 8px 10px; border: 1px solid #c3cad6; border-radius: 6px; font-size: 14px; }
+.card { background: #fff; border: 1px solid #e0e5ee; border-radius: 10px; padding: 14px 16px; }
+.card h3 { margin: 0 0 4px; }
+.auth { max-width: 380px; margin: 64px auto; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; margin: 12px 0 20px; }
+.muted { color: #6b7686; font-size: 13px; }
+.error { color: #b3261e; background: #fdecea; padding: 8px 12px; border-radius: 6px; }
+.success { color: #1b6b34; background: #e6f4ea; padding: 8px 12px; border-radius: 6px; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0; }
+.chip { background: #e4e9f2; color: #1c2430; border-radius: 999px; }
+.chip.active { background: #2f6fed; color: #fff; }
+.pick { text-align: left; color: #1c2430; display: flex; flex-direction: column; gap: 4px; }
+.pick.active { border-color: #2f6fed; background: #eaf1ff; }
